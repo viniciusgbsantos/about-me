@@ -1,0 +1,349 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    color: #1e1e1e;
+}
+*::selection {
+    background: #1e1e1e;
+    color: #cae0f0;
+    border-radius: 22px;
+}
+body{
+    font-family: Poppins, roboto, Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #cae0f0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .imgHeader{
+    width: 110px;
+    height: 110px;
+    border-radius: 55px;
+    border: 3px solid #363636;
+    -webkit-touch-callout: none; 
+    -webkit-user-select:   none; 
+     -khtml-user-select:   none; 
+       -moz-user-select:   none; 
+        -ms-user-select:   none; 
+            user-select:   none;
+}
+header a{
+    color: #1e1e1e;
+    text-decoration: none;
+    font-size: 3.3vmin;
+}
+header a:hover{
+    color: #00456a;
+    transition: .5s ease-in-out;
+    transform: scale(1.17);
+}
+.containerAll{
+    width: 75%;
+    margin: 50px auto;
+}
+.title{
+    -webkit-touch-callout: none; 
+    -webkit-user-select:   none; 
+     -khtml-user-select:   none; 
+       -moz-user-select:   none; 
+        -ms-user-select:   none; 
+            user-select:   none;
+}
+.containerOne{
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+    align-items: center;
+}
+h1{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+h3{
+    color: #474748;
+    font-weight: 400;
+}
+.name{
+    font-size: 5.3vmin;
+    text-align: left;
+    cursor: default;
+}
+.containerOne .contatosHome{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 5.3vmin;
+    margin: 20px auto;
+}
+#icons{
+    color: #474748;
+}
+#icons:hover{
+    color: #1e1e1e;
+    transition: .5s ease;
+    transform: scale(1.17);
+}
+.containerOne img{
+    border-radius: 22px;
+    margin-left: 20px;
+    transition: .5s ease;
+    -webkit-touch-callout: none; 
+    -webkit-user-select:   none; 
+     -khtml-user-select:   none; 
+       -moz-user-select:   none; 
+        -ms-user-select:   none; 
+            user-select:   none;
+}
+.containerOne img:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+#sobre{
+    background-color: #f5fdfe;
+    border: 1px solid #cae0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 1em #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.sobre{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 4.3vmin;
+    margin-bottom: 10px;
+}
+.textAboutMe{
+    font-size: 3vmin;
+    margin-bottom: 10px;
+}
+.containerHobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5fdfe;
+    border: 1px solid #cae0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 1em #ccc;
+}
+.titleSectionHobbies{
+    font-size: 4.3vmin;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.cardsHobbies{
+    display: flex;
+    flex-direction: row;
+}
+.leitura, .jiu-jitsu{
+    width: 40%;
+    background-color: #f9f9f9;
+    border-radius: 22px;
+    border: 1px solid #1e1e1e;
+    box-shadow: 0 0 1em #f9f9f9;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+    transition: .5s ease;
+}
+.leitura:hover, .jiu-jitsu:hover{
+    transform: scale(1.2);
+}
+.titleHobbies{
+    font-size: 3.4vmin;
+    margin-bottom: 10px;
+}
+.descriptionHobbies{
+    font-size: 2.8vmin;
+    color: #474748;
+}
+.shark{
+    background-image: url('img/shark.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 250px;
+    border-radius: 10px;
+    -webkit-touch-callout: none; 
+    -webkit-user-select:   none; 
+     -khtml-user-select:   none; 
+       -moz-user-select:   none; 
+        -ms-user-select:   none; 
+            user-select:   none;
+}
+.projects{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 4.3vmin;
+    margin-bottom: 10px;
+}
+.blockOne, .blockTwo{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cardProjects{
+    width: 40%;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    text-decoration: none;
+    background-color: #f5fdfe;
+    box-shadow: 0 0 0.5em #474748;
+    border-radius: 10px;
+    transition: .5s ease;
+    -webkit-touch-callout: none; 
+    -webkit-user-select:   none; 
+     -khtml-user-select:   none; 
+       -moz-user-select:   none; 
+        -ms-user-select:   none; 
+            user-select:   none;
+}
+.cardProjects:hover{
+    transform: scale(1.1);
+}
+.sangue-bom:hover{
+    box-shadow: 0 0 0.5em #d61010;
+}
+.dino-game:hover{
+    box-shadow: 0 0 0.5em #535353;
+}
+.heaven:hover{
+    box-shadow: 0 0 0.5em #5586c1;
+}
+.typing:hover{
+    box-shadow: 0 0 0.5em #43423e;
+}
+.imgCard{
+    width: 100%;
+    height: 300px;
+	border-radius: 10px 10px 0px 0px;
+}
+.infoCard{
+    width: 90%;
+    margin: 10px auto;
+}
+.nameProject{
+    font-size: 3vmin;
+    text-transform: uppercase;
+}
+.descriptionProject{
+    align-items: center;
+    text-align:left;
+}
+.sangueBom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.blockTwo{
+    margin-top: 70px;
+}
+#contato{
+    display: flex;
+    flex-direction: row;
+    background-color: #cae0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem #ccc;
+}
+.contatosFooter{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 5vmin;
+    margin: 20px auto;
+}
+.email{
+    width: 50%;
+    font-size: 3vmin;
+    font-weight: 400;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+@media screen  and (max-width: 1100px) {
+    .shark{
+        width: 100%;
+        border-radius: 0px;
+    }
+}
+@media screen  and (max-width: 900px) {
+    .blockOne, .blockTwo{
+        width: 90%;}
+    .email{
+        font-size: 2.5vmin;
+    }
+}
+@media screen  and (max-width: 768px) {
+    .containerAll{
+        width: 90%;
+    }
+    .blockOne, .blockTwo{
+        width: 90%;
+    }
+    .shark{
+        display: none;
+    }
+}
+@media screen  and (max-width: 700px) { 
+    .img{
+        width: 300px;
+    }
+}  
+@media screen  and (max-width: 600px) {
+    .containerOne{
+        flex-direction: column;
+    }
+    .name, .description{
+        margin: 10px auto
+    }
+    .cardsHobbies{
+        flex-direction: column;
+    }
+    .leitura, .jiu-jitsu{
+        width: 80%;
+    }
+    .cardProjects{
+        height: 23rem;
+    }
+    .imgCard{
+        height: 200px;
+    }
+}
+@media screen  and (max-width: 500px) {
+    header{
+        flex-direction: column;
+    }
+    .blockOne, .blockTwo{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .cardProjects{
+        width: 60%;
+        height: 21rem;
+        margin-top: 50px;
+    }
+    #contato{
+        flex-direction: column;
+    }
+    .email{
+        margin-top: 10px;
+    }
+}
